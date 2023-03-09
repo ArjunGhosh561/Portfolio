@@ -19,7 +19,7 @@
    <!-- header starts -->
    <header class="header">
       <div class="user">
-         <img src="image/profile.png" alt="">
+         <img src="image/Prof-pic.jpeg" alt="">
          <h3>Arjun Kumar Ghosh</h3>
          <p></p>
       </div>
@@ -179,13 +179,17 @@
 
          <div class="box">
             <div class="content">
-               <i class="fa-solid fa-code-branch"></i>
-               <h3>Fire-Chat</h3>
-               <p>This a group chat app by signing in you can chat here. This app developed with Vue Js and firebase.
+               <i class="fa-solid fa-robot"></i>
+               <h3>Thermal Bot</h3>
+               <p>This is an advanced thermal bot. This bot is still in development phase. It is a part of our VAT
+                  project
+
+
                </p>
                <div class="icons">
-                  <a href="https://vue-fire-chat.netlify.app" class="fas fa-link" target="_blank"></a>
-                  <a href="https://github.com/ArjunGhosh561/Firechat" class="fa-brands fa-github" target="_blank"></a>
+                  <a href="" class="fas fa-link" target="_blank"></a>
+                  <a href="https://github.com/laughing-nerd/advanced_thermal_bot" class="fa-brands fa-github"
+                     target="_blank"></a>
                </div>
 
 
@@ -238,25 +242,44 @@
 
    <!-- contact starts -->
    <section class="contact" id="contact">
-      <h2 class="heading">Contact<span> Me</span> </h2>
-      <div class="row">
-         <div class="image">
-            <img class="tilt" src="image/contact-img.svg" alt="">
+      <div class="cont-details">
+         <h2 class="heading">Get<span> in </span> Touch </h2>
+         <h3 class="heading">So whats next!</h3>
+         <p>Hi there! Thanks for stopping by. I'm excited to connect with you and share my portfolio, which showcases my
+            skills and experiences <br> Please feel free to browse through my work and don't hesitate to reach out if
+            you
+            have any questions or would like to discuss potential collaborations. Looking forward to hearing from you!
+         </p>
+         <div class="bio-data-btn">
+            
+            <button class="btn" onclick="togglePopup()">Send me mail</button>
+
          </div>
-         <form action="">
-            <div class="inputbox">
-               <input type="text" placeholder="name">
-               <input type="text" placeholder="email">
-
+         <div class="popup" id="popup-1">
+            <div class="close-btn" onclick="togglePopup()">&times;</div>
+            <div class="form">
+               <h2>Contact Us</h2>
+               <div class="form-element">
+                  <input type="text" id="name" placeholder="Enter your name">
+               </div>
+               <div class="form-element">
+                  <input type="text" id="name" placeholder="Enter your email">
+               </div>
+               <div class="form-element">
+                  <textarea  id="msg"  rows="10" placeholder="Enter your message"></textarea>
+               </div>
+               <div class="form-element">
+                  <button class="btn">Submit</button>
+                  
+               </div>
             </div>
-            <input type="text" placeholder="subject" class="box">
-            <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
-            <input type="submit" class="btn" value="send-message">
 
-         </form>
 
+
+         </div>  
+        
       </div>
-
+   
    </section>
 
 

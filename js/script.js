@@ -1,4 +1,4 @@
- let menu = document.querySelector("#menu-btn");
+let menu = document.querySelector("#menu-btn");
 
 let header = document.querySelector('.header');
 
@@ -11,15 +11,15 @@ var typed = new Typed(".typing-text", {
   typeSpeed: 150,
 });
 
-menu.onclick = () =>{
-   menu.classList.toggle('fa-times');
-   header.classList.toggle('active');
+menu.onclick = () => {
+  menu.classList.toggle('fa-times');
+  header.classList.toggle('active');
 
 }
 
 
 
- 
+
 
 themeToggler.onclick = () => {
   themeToggler.classList.toggle("fa-sun");
@@ -29,6 +29,11 @@ themeToggler.onclick = () => {
     document.body.classList.remove("active");
   }
 };
+ function togglePopup(){
+  document.getElementById("popup-1").classList.toggle("active");
+ }
+
+
 // VanillaTilt.init(document.querySelectorAll('.tilt'),{
 //    max:25
 // })
