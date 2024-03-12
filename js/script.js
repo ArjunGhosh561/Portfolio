@@ -6,7 +6,7 @@ let themeToggler = document.querySelector("#theme-toggler");
 // Typed js
 
 var typed = new Typed(".typing-text", {
-  strings: ["web-designer....", "web-developer...", "front-end developer...."],
+  strings: ["Data Analyst....", "Problem Solver...", "AI enthusiast...."],
   loop: true,
   typeSpeed: 150,
 });
