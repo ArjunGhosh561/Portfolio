@@ -6,10 +6,11 @@ let themeToggler = document.querySelector("#theme-toggler");
 // Typed js
 
 var typed = new Typed(".typing-text", {
-  strings: ["Data Analyst....", "Problem Solver...", "AI enthusiast...."],
+  strings: ["an Electronics Engineer..."," a Problem Solver...", "an AI enthusiast..."],
   loop: true,
   typeSpeed: 150,
 });
+
 
 menu.onclick = () => {
   menu.classList.toggle('fa-times');
