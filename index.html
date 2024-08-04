@@ -274,22 +274,25 @@
          </div>
          <div class="popup" id="popup-1">
             <div class="close-btn" onclick="togglePopup()">&times;</div>
-            <div class="form">
-               <h2>Contact Us</h2>
-               <div class="form-element">
-                  <input type="text" id="name" placeholder="Enter your name">
-               </div>
-               <div class="form-element">
-                  <input type="text" id="name" placeholder="Enter your email">
-               </div>
-               <div class="form-element">
-                  <textarea  id="msg"  rows="10" placeholder="Enter your message"></textarea>
-               </div>
-               <div class="form-element">
-                  <button class="btn">Submit</button>
-                  
-               </div>
-            </div>
+   <form class="form" action="https://formspree.io/f/xwpeoydg" method="post">
+  <h2>Contact Us</h2>
+  <div class="form-element">
+   
+    <input type="text" id="name" name="name" placeholder="Enter your name">
+  </div>
+  <div class="form-element">
+   
+    <input type="text" id="email" name="email" placeholder="Enter your email">
+  </div>
+  <div class="form-element">
+    
+
+    <textarea id="msg" name="msg" rows="10" placeholder="Enter your message"></textarea>
+  </div>
+  <div class="form-element">
+    <button type="submit" class="btn">Submit</button>
+  </div>
+</form>
 
 
 
