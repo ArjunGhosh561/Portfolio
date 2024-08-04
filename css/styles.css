@@ -584,78 +584,68 @@ section {
 
 /* Project end */
 
+
+/* EXP STARTS */
+
+.experience {
+   display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the divs horizontally */
+    align-items: center; /* Center the divs vertically */
+    gap: 10rem;
+    margin-top: 12rem;
+   
+
+}
+
+.experience-item {
+   /* background-color: #fff; */
+   padding: 20px;
+   border-radius: 10px;
+   text-align: center;
+   flex: 1;
+   max-width: 300px;
+   min-width: 250px; /* Minimum width for smaller screens */
+   border-radius: .5rem;
+   box-shadow: var(--box-shadow);
+   margin: 20px;
+   overflow: hidden;
+}
+.experience-item h2{
+   font-size: 2rem;
+   padding: 2.5rem 0;
+   color: var(--green);
+}
+
+.experience-item img {
+   width: 150px;
+   height: 100px;
+   margin-bottom: 10px;
+   border-radius: .5rem;
+}
+
+.experience-item p  {
+   margin: 10px 0;
+   font-size: 20px;
+   text-transform: capitalize;
+   word-spacing: .2rem;
+   color: var(--light-color)
+}
+.experience-item p .role{
+   margin: 10px 0;
+   font-size: 200px;
+   text-transform: capitalize;
+   word-spacing: .2rem;
+   color: var(--light-color)
+}
+
+
+/* EXP ENDS */
+
+
+
 /* contact starts */
 
-
-
-/* 
-.contact .row{
-   display: flex;
-   align-items: center;
-   flex-wrap: wrap;
-   gap:1.5rem;
-   
-}
-
-.contact .row .wrapper{
-   flex:1 1 40rem;
-   height: 100vh;
-   align-items: center;
-}
- .row .wrapper.box{
-   background:
-   url(https://img.freepik.com/free-vector/flat-design-illustration-customer-support_23-2148887720.jpg?w=740&t=st=1678025401~exp=1678026001~hmac=0e93b4c81ec97b9edc0b3ca2f1bb300ea189a0df4fca7ca423245654d33eab4b);
-   -webkit-background-size:cover;
-   background-size: cover;
-   background-position: center center;
-   height: 550px;
-   width: 550px;
-
-
-}
- 
-
-.contact .row form{
-   flex:1 1 40rem;
-   padding: 1rem 2rem;
-   box-shadow: var(--box-shadow);
-   border-radius: .5rem;
-   background:var(--bg-color);
-}
-
-.contact .row form .inputbox{
-   display: flex;
-   justify-content: space-between;
-   flex-wrap: wrap;
-}
-
-.contact .row form .inputbox input,
-.contact .row form  .box,
-.contact .row form  textarea{
-   width: 100%;
-   border-radius: .5rem;
-   font-size: 1.7rem;
-   color:#333;
-   padding: 1rem;
-   margin:1rem 0;
-   border:1rem solid rgba(0, 0, 0, 0.103);
-   text-transform: none;
-}
-
-.contact .row form .inputbox input:focus,
-.contact .row form  .box:focus,
-.contact .row form  textarea:focus{
-   border-color: rgb(201, 255, 201);
-}
-
-.contact .row form .inputbox input
-{
-   width:49%;
-}
-.contact .row form  textarea{
-   height: 20rem;
-   resize: none;
-} */
 .contact {
    align-items: center;
 
@@ -835,10 +825,23 @@ section {
       width: 100%;
    }
 
-   .projects .box-container .box p {
-      font-weight: 400;
-      font-size: 1.5rem
-   }
+   .experience-item {
+      max-width: 100%; /* Full width for small screens */
+      padding: 15px;
+  }
+
+  .experience-item h2 {
+      font-size: 2.25rem;
+  }
+
+  .experience-item img {
+      width: 80px;
+      height: 60px;
+  }
+
+  .experience-item p {
+      font-size: 1.9rem;
+  }
 
 }
 
@@ -850,7 +853,23 @@ section {
    .main .box2 {
       display: none;
    }
+   .experience-item {
+      max-width: 100%; /* Full width for very small screens */
+      padding: 10px;
+  }
 
+  .experience-item h2 {
+      font-size: 2rem;
+  }
+
+  .experience-item img {
+      width: 60px;
+      height: 45px;
+  }
+
+  .experience-item p {
+      font-size: 1.8rem;
+  }
 }
 
 @media(max-width:200px) {
@@ -861,6 +880,23 @@ section {
    .heading {
       font-size: 2rem;
    }
+   .experience-item {
+      max-width: 100%; /* Full width for extremely small screens */
+      padding: 5px;
+  }
+
+  .experience-item h2 {
+      font-size: 0.75rem;
+  }
+
+  .experience-item img {
+      width: 40px;
+      height: 30px;
+  }
+
+  .experience-item p {
+      font-size: 0.7rem;
+  }
 
 }
 
