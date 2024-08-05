@@ -808,7 +808,18 @@ section {
 
 }
 
+@media (max-width: 500px) {
+   .qualification .box-container .box {
+       width: calc(100% - 2rem); /* Ensures the width is full with padding */
+       max-width: none; /* Removes the maximum width restriction */
+       padding: 1rem; /* Adjusts padding for smaller screens */
+   }
 
+   .qualification .box-container .box .content {
+       padding: 1rem;
+       margin-top: 0;
+   }
+}
 
 @media(max-width:450px) {
    .header {
